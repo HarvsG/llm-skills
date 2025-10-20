@@ -1,0 +1,23 @@
+{
+  "name": "smart-home-services",
+  "owner": {
+    "name": "Paulus Schoutsen",
+    "email": "balloob@gmail.com"
+  },
+  "metadata": {
+    "description": "Smart home integration skills for Home Assistant, Ollama, and related services",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "smart-home-services",
+      "description": "Collection of smart home integration skills including Home Assistant automation and Ollama local AI capabilities",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./home-assistant",
+        "./ollama"
+      ]
+    }
+  ]
+}
