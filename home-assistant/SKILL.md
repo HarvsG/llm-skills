@@ -33,9 +33,9 @@ Collect two pieces of information from the user:
 If the user provides a URL with a path component (e.g., `https://lahduz25eky1ty74fi1os45dgx2cblg.ui.nabu.casa/lovelace/dashboard`), normalize it by removing everything after the host and port. The base URL should only include the scheme, host, and optionally, the port:
 Note that the URL must be reachable from the environment the code is run in. Local addresses will only work in local environments. If a cloud hosted AI agent is running the code such as when validating a connection it must be internet-accessible and the agent must have the appropriate egress permissions.
 
-✓ Correct (for external access): `https://lahduz25eky1ty74fi1os45dgx2cblg.ui.nabu.casa`
-✓ Correct (for local access): `http://homeassistant.local:8123`
-✗ Incorrect: `http://homeassistant.local:8123/lovelace/dashboard`
+- ✓ Correct (for external access): `https://lahduz25eky1ty74fi1os45dgx2cblg.ui.nabu.casa`
+- ✓ Correct (for local access): `http://homeassistant.local:8123`
+- ✗ Incorrect: `http://homeassistant.local:8123/lovelace/dashboard`
 
 ### Step 3: Help Users Find Their Token
 
